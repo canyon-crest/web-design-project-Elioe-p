@@ -1,1 +1,14 @@
+body {
+    background-color: #ffc1c1;
+}
 
+img {
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+    height: 230px;
+}
+
+p {
+    margin-bottom: 150px;
+}
