@@ -20,8 +20,7 @@ body {
 img {
     float: left;
     margin-right: 15px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    align-items: center;
     width: 300px;
     height: 230px;
 }
@@ -74,4 +73,52 @@ a:active {
 /* Class rule*/
 .highlight{
     background-color: aqua;
+}
+
+#sidebar{
+    background-color: #000000;
+    width: 200px;
+    line-height: 2em;
+    border: 2px solid white;
+    float: right;
+    margin: 20px;
+}
+
+@media (max-width:1200px){
+    #outer-content{
+        background-color: firebrick;
+        width: 800px;
+    }
+}
+
+@media (max-width:992px){
+    #outer-content{
+        background-color: rgb(235, 31, 31);
+        width: 100%;
+    }
+    body, p, #outer-content, inner-content{
+        margin: 0;
+        border: none;
+        padding: 0;
+    }
+
+    p, #p2, h3 {
+        padding: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    #sidebar {
+        display: none;
+    }
+    h1{
+        border: none;
+        background: none;
+        color: #000000;
+        width: 90%;
+    }
+    img {
+        width: 150px;
+        height:100px;
+    }
 }
