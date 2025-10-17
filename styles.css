@@ -86,14 +86,20 @@ a:active {
 
 @media (max-width:1200px){
     #outer-content{
-        background-color: firebrick;
-        width: 800px;
+        background-color: rgb(200, 0, 0);
+        width: 100%;
+    }
+    h1{
+        background-color: #000000;
+    }
+    body {
+        background-color: rgb(200, 0, 0);
     }
 }
 
 @media (max-width:992px){
     #outer-content{
-        background-color: rgb(235, 31, 31);
+        background-color: rgb(200, 0, 0);
         width: 100%;
     }
     body, p, #outer-content, inner-content{
@@ -105,9 +111,19 @@ a:active {
     p, #p2, h3 {
         padding: 20px;
     }
+    h1{
+        background-color: #000000;
+    }
+    body {
+        background-color: rgb(200, 0, 0);
+    }
 }
 
 @media (max-width:768px) {
+    #outer-content{
+        background-color: red;
+        width: 100%;
+    }
     #sidebar {
         display: none;
     }
@@ -120,5 +136,8 @@ a:active {
     img {
         width: 150px;
         height:100px;
+    }
+    body {
+        background-color: #ff0000;
     }
 }
