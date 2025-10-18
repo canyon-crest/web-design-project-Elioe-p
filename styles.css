@@ -88,20 +88,20 @@ a:active {
 
 @media (max-width:1200px){
     #outer-content{
-        background-color: rgb(200, 0, 0);
+        background-color: firebrick;
         width: 100%;
     }
     h1{
         background-color: #000000;
     }
     body {
-        background-color: rgb(200, 0, 0);
+        background-color: firebrick;
     }
 }
 
 @media (max-width:992px){
     #outer-content{
-        background-color: rgb(200, 0, 0);
+        background-color: firebrick;
         width: 100%;
     }
     body, p, #outer-content, inner-content{
@@ -117,7 +117,7 @@ a:active {
         background-color: #000000;
     }
     body {
-        background-color: rgb(200, 0, 0);
+        background-color: firebrick;
     }
 }
 
